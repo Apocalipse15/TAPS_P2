@@ -1,0 +1,61 @@
+[
+  [
+    {
+      "fingerprint": "F538DBEA80CA7DA733537166CA364D98CBE9E1D1",
+      "nickname": "10dxx",
+      "ip": "185.132.176.180",
+      "port": 9001,
+      "bandwidth": {
+        "measured": 104771381,
+        "average": 136314880,
+        "burst": 146800640
+      },
+      "family": [],
+      "asn": "49981",
+      "exit": "reject 0.0.0.0/8:*, reject 169.254.0.0/16:*, reject 127.0.0.0/8:*, reject 192.168.0.0/16:*, reject 10.0.0.0/8:*, reject 172.16.0.0/12:*, reject 185.132.176.180:*, accept *:*"
+    }
+  ],
+  {
+    "fingerprint": "669E9D3CF2C1BF3A9E7A0B7FD89F8B4B5E1EF516",
+    "nickname": "StopArmingIsrael",
+    "ip": "57.128.216.118",
+    "port": 443,
+    "bandwidth": {
+      "measured": 114497077,
+      "average": 1073741824,
+      "burst": 1073741824
+    },
+    "family": [],
+    "asn": "16276",
+    "exit": "reject *:*"
+  },
+  [
+    {
+      "fingerprint": "B4E3546B058FEB655A6D8698D97C1459A2DF8E77",
+      "nickname": "dotsrcRelay1",
+      "ip": "130.225.244.90",
+      "port": 443,
+      "bandwidth": {
+        "measured": 85968797,
+        "average": 1073741824,
+        "burst": 1073741824
+      },
+      "family": [
+        "$62A4E6BFE875437879EB7981C3FC0310D3506AF5",
+        "$B4E3546B058FEB655A6D8698D97C1459A2DF8E77",
+        "$45D276D6A51DAE5C6F39A655ECE647DDEA9FAEF4",
+        "$6878541E2613946DCE1E454369190263D473BA73",
+        "$36196F1ADF33DD6EEA6C5FADA69FC43C18D05C5A",
+        "$A4E65F29495ED1111A69A11933E8ECA70B016791",
+        "$C0C300BC2E84A503D4F51A6AD63B3F6BF3E112C2",
+        "$43C9F5C28EA90A1858727E2AB380612EA9CD9F42",
+        "$AC7C0F9D57DADAD5D8F4568EE1543EF3E22A47CE",
+        "$9DEA7B6531B446EA1AB9089EB59F04E75C524FC5",
+        "$1AA042AA8013B7C7853CE2A788537DF558498510",
+        "$5796FE1EB5744EB363FDB499FFBC2F7933C0CA4A"
+      ],
+      "asn": "1835",
+      "exit": "reject *:*"
+    }
+  ]
+]
